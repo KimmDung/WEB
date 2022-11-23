@@ -1,6 +1,5 @@
 .bg-nav {
-    background-color: green;
-    ;
+    background-image: linear-gradient( to right, #A4BE7B  , #75B175, #3AA377, #00937E, #008287, #007190);
 }
 
 .icon-light {
@@ -17,4 +16,18 @@
 
 .navbar-toggler:focus {
     box-shadow: none;
+}
+
+.img-logo{
+    position: relative;
+    width: 5%;
+    height: 1%;
+}
+.img-logo-text{
+    position: relative;
+    width: 15%;
+}
+
+.signin{
+    float: right;
 }
