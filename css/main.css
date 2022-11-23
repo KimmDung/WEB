@@ -68,7 +68,8 @@
     --bs-navbar-toggler-focus-width: 0.25rem;
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
     position: relative;
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
@@ -85,4 +86,14 @@
     width: 8rem;
     background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
     border: none;
+}
+
+.header_login-list{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.header_login-item{
+    display: inline-block
 }
