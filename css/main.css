@@ -74,3 +74,15 @@
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
+
+.img-avt{
+    width: 100%;
+    margin-top: 50%;
+}
+
+.my-btn-setup{
+    border-radius: 180rem;
+    width: 8rem;
+    background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
+    border: none;
+}
