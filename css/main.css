@@ -18,3 +18,17 @@
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
+
+
+.img-avt{
+    width: 100%;
+    margin-top: 80%;
+}
+
+.box-login{
+    border-radius: 5%;
+}
+button{
+    border-radius: 50%;
+}
