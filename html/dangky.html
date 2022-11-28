@@ -16,17 +16,17 @@
 
             <div class="login container">
                 <h2 class="active"> TẠO TÀI KHOẢN </h2>
-              <form>
+              <form onsubmit="dangky()">
                                     
-                        <input type="text" class="text"  placeholder="Họ tên">
+                        <input id="hoten" type="text" class="text"  placeholder="Họ tên">
                         <hr>
-                        <input type="text" class="text"  placeholder="Email">
+                        <input id="email" type="text" class="text"  placeholder="Email">
                         <hr>
-                        <input type="text" class="text"  placeholder="Số điện thoại">
+                        <input id="sdt" type="text" class="text"  placeholder="Số điện thoại">
                         <hr>
-                        <input type="password" class="text"  placeholder="Mật khẩu">
+                        <input id="mk" type="password" class="text"  placeholder="Mật khẩu">
                         <hr>
-                        <input type="password" class="text"  placeholder="Xác nhận mật khẩu">
+                        <input id="xacnhan" type="password" class="text"  placeholder="Xác nhận mật khẩu">
                         <br>
 
                         <button class="signin">Tạo tài khoản</button>
@@ -35,5 +35,6 @@
 
             </div>
         </main>
+        <script src="/js/dangky.js"></script>
     </body>
 </html>
