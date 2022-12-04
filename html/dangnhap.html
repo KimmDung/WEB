@@ -16,22 +16,26 @@
 
             <div class="login container">
                 <h2 class="active"> Đăng Nhập </h2>
-              <form>
+                <form onsubmit="dangnhap()">
                                     
-                        <input type="text" class="text"  placeholder="Email hoặc số điện thoại">
+                        <input id="dn" type="text" class="text"  placeholder="Email hoặc số điện thoại">
                         <hr>
-                        <input type="password" class="text" name="password" placeholder="Mật khẩu">
+                        <input id="mk" type="password" class="text" name="password" placeholder="Mật khẩu">
                         <br>
                         <a href="#" class="mk">Quên mật khẩu?</a>
                         
-                        <button class="signin">Đăng Nhập</button>
+                        <button id="signin" class="signin">Đăng Nhập</button>
+                        <!-- <input class="signin" type="submit" value="Đăng Nhập"> -->
+                        
                         <p class="tk" >Bạn chưa đăng ký?
-                            <a href="" class="">Đăng ký</a>
+                            <a href="dangky.html" class="">Đăng ký</a>
                         </p>
                         
                 </form>
 
             </div>
         </main>
+        <script src="/js/dangky.js"></script>
     </body>
+    
 </html>
