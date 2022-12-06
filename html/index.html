@@ -17,21 +17,17 @@
 </head>
 
 <body>
-  <header class="container-fluid">
-    <div class="container-fluid logo">
-      
-      <ul class="header_login-list">
+  <header class="container-fluid p-0">
+    <div class="container-fluid p-0 header_logo">
+      <div class="header_img">
         <img src="/images/logo.png" alt="" class="img-logo">
-        <img src="/images//doityourself..png" alt="" class="img-logo-text">
-      </ul>
-      <ul class="header_login-list">
-        <li class="header_login-item">
-          Đăng kí
-        </li>
-        <li class="header_login-item" >
-          Đăng nhập
-        </li>
-      </ul>
+        <img src="/images/doityourself..png" alt="" class="img-logo-text">
+      </div>
+
+      <div class="header_login">
+        <a href="" class="register">Đăng ký</a>
+        <a href="" class="login">Đăng nhập</a>
+      </div>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-nav">
@@ -45,12 +41,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li> -->
             <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -94,9 +84,13 @@
                     placeholder="Search"
                     aria-label="Search"
                 /> -->
-            <button class="btn" type="submit">
+            
+            <a href="" class="icon_search">
               <i class="fa-solid fa-magnifying-glass icon-light"></i>
-            </button>
+            </a>
+            <a href="" class="icon_cart">
+              <i class="fa-solid fa-cart-shopping icon-light "></i>
+            </a>
           </form>
         </div>
       </div>
