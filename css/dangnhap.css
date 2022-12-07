@@ -111,8 +111,8 @@ input {
 }
 
 .signin:hover {
-  background: #4082f5;
-  box-shadow: 0px 4px 35px -5px #4082f5;
+  background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
+  background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
   cursor: pointer;
 }
 

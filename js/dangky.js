@@ -1,5 +1,5 @@
 function dangky(e){
-    event.preventDefault();
+    // event.preventDefault();
     var hoten = document.getElementById("hoten").value;
     var email = document.getElementById("email").value;
     var sdt = document.getElementById("sdt").value;
@@ -14,7 +14,7 @@ function dangky(e){
 
     var json = JSON.stringify(user);
     localStorage.setItem(hoten,json);
-    alert("dang ky thanh cong");
+    // alert("dang ky thanh cong");
 
     var mail = /^[a-zA-Z0-9.-]+\[a-zA-Z]{2,4}$/;
 
