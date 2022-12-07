@@ -1,10 +1,47 @@
 .t1 {
     padding: 30px;
     display: flex;
+    justify-content: center;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
     color: black;
+}
+
+.ten {
+    font-size: 2rem;
+    /* width: 400px; */
+    height: auto;
+    text-align: left;
+}
+
+.gia {
+    font-size: 35px;
+    font-style: italic;
+    display: flex;
+}
+
+.img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 50%;
+    /* justify-content: center; */
+}
+
+.dd {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.sp {
+    display: flex;
+    width: 375px;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: column;
+    
 }
