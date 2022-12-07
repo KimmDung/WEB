@@ -119,12 +119,12 @@ body{
    margin-left: 10px;
    margin-right: 5px;
 }
+.banner{
+    display: flex;
+    justify-content: center;
+}
 
 .banner-img{
     height: 500px; 
-    width: 1200px; 
-}
-
-.icon-footer{
-    display: inline-block;
+    /* width: 600px;  */
 }
