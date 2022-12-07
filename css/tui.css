@@ -1,0 +1,10 @@
+.t1 {
+    padding: 30px;
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
