@@ -120,7 +120,11 @@ body{
    margin-right: 5px;
 }
 
-/* .banner-img{
-    height: 500px; !important
-    width: 1200px;
-} */
+.banner-img{
+    height: 500px; 
+    width: 1200px; 
+}
+
+.icon-footer{
+    display: inline-block;
+}

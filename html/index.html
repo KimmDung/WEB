@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link rel="stylesheet" href="/css/footer.css">
   <script src="/js/bootstrap.js"></script>
   <script src="/js/bootstrap.bundle.js"></script>
 </head>
@@ -25,23 +25,37 @@
       </div>
 
       <div class="header_login">
-        <a href="" class="register">Đăng ký</a>
-        <a href="" class="login">Đăng nhập</a>
+        <a href="/html/dangky.html" class="register">Đăng ký</a>
+        <a href="/html/dangnhap.html" class="login">Đăng nhập</a>
       </div>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <i class="fa-solid fa-house icon-light"></i>
-        </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown ">
+            <li class="nav-item">
+              <a class="navbar-brand nav-link active" href="#">
+                <i class="fa-solid fa-house icon-light"></i>
+              </a>
+              <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Túi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Nến thơm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Liên hệ</a>
+            </li>
+
+            <!-- <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Sản Phẩm
@@ -75,7 +89,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
-            </li>
+            </li> -->
           </ul>
           <form class="d-flex" role="search">
             <!-- <input
@@ -84,7 +98,7 @@
                     placeholder="Search"
                     aria-label="Search"
                 /> -->
-            
+
             <a href="" class="icon_search">
               <i class="fa-solid fa-magnifying-glass icon-light"></i>
             </a>
@@ -102,9 +116,12 @@
     <!-- Banner -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active ">
@@ -117,11 +134,13 @@
           <img src="/images/Home/nenthom04.jpg" class="d-block banner-img img-img-fluid" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -130,19 +149,63 @@
 
     <!-- Sanpham -->
     <div>
-      <span> 
+      <span>
         Bạn có thể thích
       </span>
     </div>
 
-    <div></div>
+    <div>
+
+    </div>
+
+    <div class="container-fluid d-flex align-items-center">
+      <div class="product">
+        <img src="/images/Home/nenthom01.jpg" class="rounded mx-auto d-block" alt="...">
+      </div>
+      <div class="product">
+        <img src="/images/Home/nenthom02.jpg" class="rounded mx-auto d-block" alt="...">
+      </div>
+      <div class="product">
+        <img src="/images/Home/tui01.jpg" class="rounded mx-auto d-block" alt="...">
+      </div>
+
+    </div>
   </main>
 
-  <footer>
+  <footer class="container-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 p-2">
+          <h1>Về chúng tôi</h1>
+          <p>Chúng tôi chuyên giới thiệu những săn phẩm handmade với những mẫu phổ biến thông dụng, đẹp mắt
+            cùng với phong cách thời thượng cho mọi người có thể trải nghiệm thế giơi handmade.</p>
+        </div>
+        <div class="col-4 p-2">
+          <div class="row">
+            <h1>Liên kết</h1>
+          </div>
 
+          <div class="row icon-footer">
+            <i class="fa-brands fa-facebook icon-footer"></i>
+            <span class="">Facebook</span>
+          </div>
+          <div class="row"><i class="fa-brands fa-square-instagram icon-footer"> </i> Instagram</div>
+          <div class="row"><i class="fa-brands fa-youtube icon-footer"></i> Youtube</div>
+          <div class="row"><i class="fa-brands fa-facebook-messenger icon-footer"></i> Messenger</div>
+        </div>
+        <div class="col-4 p-2">
+          <h1>Liên hệ</h1>
+          <div class="row"><i class="fa-solid fa-envelope"> </i> Email: kdchl@student.ctu.edu.vn</div>
+          <div class="row"><i class="fa-solid fa-phone-volume"> </i> Điện thoại: 0123456789</div>
+        </div>
+      </div>
+      <div class="row text-center p-2">
+        <span>Copyright &copy; 2021 Bản quyền thuộc về Do It Yourself.</span>
+      </div>
+    </div>
   </footer>
 
-  <img src="/images/Home/" alt="" class="acd" />
+  
 </body>
 
 </html>
