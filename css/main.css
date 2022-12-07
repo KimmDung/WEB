@@ -93,7 +93,6 @@ body{
     /* align-items: center; */
 }
 
-
 .img-logo{
     /* position: relative; */
     width: 5rem;
@@ -120,3 +119,8 @@ body{
    margin-left: 10px;
    margin-right: 5px;
 }
+
+/* .banner-img{
+    height: 500px; !important
+    width: 1200px;
+} */
