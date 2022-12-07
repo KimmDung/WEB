@@ -7,7 +7,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/dangky.css" />
-        
+        <script src="/js/dangky.js"></script>
 
     </head>
     <body>
@@ -16,7 +16,7 @@
 
             <div class="login container">
                 <h2 class="active"> TẠO TÀI KHOẢN </h2>
-              <form onsubmit="dangky()">
+                <form onsubmit="return dangky(this)">
                                     
                         <input id="hoten" type="text" class="text"  placeholder="Họ tên">
                         <hr>
@@ -35,6 +35,5 @@
 
             </div>
         </main>
-        <script src="/js/dangky.js"></script>
     </body>
 </html>
