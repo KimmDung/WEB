@@ -1,7 +1,8 @@
-header{
+header {
     padding: 0px;
 }
-body{
+
+body {
     display: block;
     margin: 8px;
 }
@@ -58,73 +59,75 @@ body{
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
-.img-avt{
+.img-avt {
     width: 100%;
     margin-top: 50%;
 }
 
-.my-btn-setup{
+.my-btn-setup {
     border-radius: 180rem;
     width: 8rem;
     background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
     border: none;
 }
 
-.header_login-list{
+.header_login-list {
     list-style: none;
     display: flex;
     padding-left: 0;
 }
 
-.header_login-item{
+.header_login-item {
     display: inline-block;
     margin: 0px 8px;
 }
 
-.header_logo{
+.header_logo {
     display: flex;
 }
-.header_img{
+
+.header_img {
     display: inline-block;
 }
-.header_login{
+
+.header_login {
     display: inline-block;
     margin-left: auto;
     /* align-items: center; */
 }
 
-.img-logo{
+.img-logo {
     /* position: relative; */
     width: 5rem;
     height: 100%;
 }
-.img-logo-text{
+
+.img-logo-text {
     position: relative;
     width: 10rem;
     height: 100%;
 }
 
-.register, .login{
+.register,
+.login {
     float: right;
     text-align: center;
     margin: 17px 5px;
     text-decoration: none;
     color: black;
 }
+
 .login {
     float: right;
 }
 
-.icon_search, .icon_cart{
-   margin-left: 10px;
-   margin-right: 5px;
-}
-.banner{
-    display: flex;
-    justify-content: center;
+.icon_search,
+.icon_cart {
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
-.banner-img{
-    height: 500px; 
+.banner-img {
+    height: 500px;
     /* width: 600px;  */
 }
