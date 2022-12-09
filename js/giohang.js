@@ -163,11 +163,11 @@ ListItems = {
       'Ten': 'Nến Purl Mini',
       'Giaban': '184000VND',
       'Hinhanh': '/imgages/Nen/nt09.jpg',
-      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tin dầu gừng, tinh dầu lá bạc hà',
+      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu gừng, tinh dầu lá bạc hà',
       'Kichthuoc': '15x20cm',
    },
 
-   'nen': {
+   'nen10': {
       'Ten': 'Nến Sofy Mist',
       'Giaban': '175000VND',
       'Hinhanh': '/imgages/Nen/nt10.jpg',
@@ -175,7 +175,93 @@ ListItems = {
       'Kichthuoc': '20x25cm',
    },
 
-   
+   'tui-1': {
+      'Ten': 'Handmade Vành khuyên',
+      'Giaban': '186000',
+      'Hinhanh': '/imgages/Home/tui04.jpg',
+      'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng',
+      'Kichthuoc': '15x20cm',
+   },
+
+   'tui-2': {
+      'Ten': 'Handmade hoa cúc',
+      'Giaban': '200000',
+      'Hinhanh': '/imgages/Home/tui07.jpg',
+      'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng, 01 cuộn len vàng',
+      'Kichthuoc': '20x20cm',
+   },
+
+   'tui-3': {
+      'Ten': 'Handmade flower',
+      'Giaban': '250000',
+      'Hinhanh': '/imgages/Home/tui08.jpg',
+      'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng',
+      'Kichthuoc': '12x18cm',
+   },
+
+   'tui-4': {
+      'Ten': 'Tui Bud',
+      'Giaban': '199000',
+      'Hinhanh': '/imgages/Home/tui01.jpg',
+      'Nguyenlieu': '01 dây deo, 01 cuộn len vàng, 01 cuộn len kem',
+      'Kichthuoc': '25x20cm',
+   },
+
+   'tui-5': {
+      'Ten': 'Túi Smile',
+      'Giaban': '223000',
+      'Hinhanh': '/imgages/Home/tui05.jpg',
+      'Nguyenlieu': '01 cuộn len trắng, 01 cuộn len đen',
+      'Kichthuoc': '12x18cm',
+   },
+
+   'tui-6': {
+      'Ten': 'Túi Purple',
+      'Giaban': '200000',
+      'Hinhanh': '/imgages/Home/tui02.jpg',
+      'Nguyenlieu': '01 cuộn len tím',
+      'Kichthuoc': '13x20cm',
+   },
+
+   'nen-1': {
+      'Ten': 'Hủ đựng nến thơm',
+      'Giaban': '20000',
+      'Hinhanh': '/imgages/Home/nenthom03.jpg',
+      'Nguyenlieu': 'Gốm',
+      'Kichthuoc': '5x5cm',
+   },
+
+   'nen-2': {
+      'Ten': 'Nến thơm Blossom',
+      'Giaban': '150000',
+      'Hinhanh': '/imgages/Home/nenthom8.jpg',
+      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu hoa anh đào',
+      'Kichthuoc': '10x10cm',
+   },
+
+   'nen-3': {
+      'Ten': 'Nến thơm White Lyly',
+      'Giaban': '145000',
+      'Hinhanh': '/imgages/Home/nenthom4.jpg',
+      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu hoa lyly',
+      'Kichthuoc': '10x10cm',
+   },
+
+   'nen-4': {
+      'Ten': 'Nến thơm Mộc',
+      'Giaban': '99000',
+      'Hinhanh': '/imgages/Home/nenthom1.jpg',
+      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu thảo mộc',
+      'Kichthuoc': '8x8cm',
+   },
+
+   'nen-6': {
+      'Ten': 'Nến thơm thiên nhiên',
+      'Giaban': '158000',
+      'Hinhanh': '/imgages/Home/nenthom6.jpg',
+      'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu bạc hà, tinh dầu oải hương',
+      'Kichthuoc': '7x7cm',
+   },
 }
 
 function Xoadonhang() {
