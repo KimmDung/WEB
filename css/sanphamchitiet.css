@@ -1,0 +1,9 @@
+#add-cart {
+    outline: 0px solid none;
+    width: auto;
+    color: white;
+    background-color: rgba(255, 42, 42, 0.44);
+    /* border-radius: 0px; */
+    background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
+
+}
