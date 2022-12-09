@@ -1,3 +1,11 @@
+@font-face {
+    font-family: SairaExtraCondensed;
+    src: url(/font/SairaExtraCondensed-Light.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+
 header {
     padding: 0px;
 }
@@ -5,12 +13,14 @@ header {
 body {
     display: block;
     margin: 8px;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 .bg-nav {
     background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
     z-index: 1020
@@ -32,7 +42,7 @@ nav{
     box-shadow: none;
 }
 
-.bg-search{
+.bg-search {
     /* background:transparent; */
     /* color: white; */
 }
@@ -102,11 +112,11 @@ nav{
     color: black;
 }
 
-.btn-bg{
+.btn-bg {
     background-color: #008287;
 }
 
-.btn-outline-bg{
+.btn-outline-bg {
     color: #008287;
     outline: #007190;
 }
@@ -121,10 +131,10 @@ nav{
     margin-right: 5px;
 }
 
-.category-banner{
+.category-banner {
     display: block;
-    margin-top:30px ;
-    margin-bottom:30px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .banner-img {
@@ -132,19 +142,19 @@ nav{
     /* width: 600px;  */
 }
 
-.product{
+.product {
     margin: 10px;
     width: 15rem;
     height: 20rem;
     border: 1px;
 }
-.product-item a{
+
+.product-item a {
     text-decoration: none;
     color: black;
 }
-.product:hover{
-    
-}
+
+.product:hover {}
 
 .product-img {
     width: 100%;
@@ -154,21 +164,21 @@ nav{
     left: 0;
 }
 
-.product-info{
+.product-info {
     padding: 8px;
-    
+
 }
 
-.product-name{
+.product-name {
     align-items: center;
     line-height: 3rem;
     font-size: 1.5rem;
 }
 
-.product-price{
+.product-price {
     align-items: center;
-    line-height: 3rem ;
+    line-height: 3rem;
     font-size: 1.2rem;
-    text-decoration: ;
+    /* text-decoration: ; */
     font-weight: bold;
 }
