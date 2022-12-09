@@ -170,3 +170,9 @@ body {
     /* text-decoration: ; */
     font-weight: bold;
 }
+
+.phantrang {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
