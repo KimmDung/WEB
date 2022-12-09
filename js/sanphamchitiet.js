@@ -1,4 +1,4 @@
-var ListItems = {
+let ListItems = {
    'tui01': {
       'Ten': 'Handmade Pomix',
       'Giaban': '230000',
@@ -10,7 +10,7 @@ var ListItems = {
    'tui02': {
       'Ten': 'Handmade Culorhot',
       'Giaban': '233000',
-      'Hinhanh': '/imgages/Tui/Tuii05.jpg',
+      'Hinhanh': '/images/Tui/Tuii05.jpg',
       'Nguyenlieu': '03 cuộn len, 01 dây xích 0.5m',
       'Kichthuoc': '20x30cm',
    },
@@ -18,7 +18,7 @@ var ListItems = {
    'tui03': {
       'Ten': 'Handmade Pearl',
       'Giaban': '255000',
-      'Hinhanh': '/imgages/Tui/tuii08.jpg',
+      'Hinhanh': '/images/Tui/tuii08.jpg',
       'Nguyenlieu': '02 cuộn len, 01 canvas cắt sẵn, 2 nút hít',
       'Kichthuoc': '18x20cm',
    },
@@ -26,7 +26,7 @@ var ListItems = {
    'tui04': {
       'Ten': 'Handmade Black dài',
       'Giaban': '200000',
-      'Hinhanh': '/imgages/Tui/tuii001.jpg',
+      'Hinhanh': '/images/Tui/tuii001.jpg',
       'Nguyenlieu': '02 cuộn len đen',
       'Kichthuoc': '15x20cm',
    },
@@ -34,7 +34,7 @@ var ListItems = {
    'tui05': {
       'Ten': 'Handmade đeo Blue',
       'Giaban': '250000',
-      'Hinhanh': '/imgages/Tui/tuii06.jpg',
+      'Hinhanh': '/images/Tui/tuii06.jpg',
       'Nguyenlieu': '01 cuộn len trắng, 01 cuộn len xanh',
       'Kichthuoc': '10x15cm',
    },
@@ -42,7 +42,7 @@ var ListItems = {
    'tui06': {
       'Ten': 'Handmade Gold',
       'Giaban': '255000',
-      'Hinhanh': '/imgages/Tui/tuii07.jpg',
+      'Hinhanh': '/images/Tui/tuii07.jpg',
       'Nguyenlieu': '01 dây xích, 01 cuộn len xanh',
       'Kichthuoc': '12x18cm',
    },
@@ -50,7 +50,7 @@ var ListItems = {
    'tui07': {
       'Ten': 'Handmade Puff',
       'Giaban': '255000',
-      'Hinhanh': '/imgages/Tui/tuii11.jpg',
+      'Hinhanh': '/images/Tui/tuii11.jpg',
       'Nguyenlieu': '02 cuộn len trắng, 02 cuộn len vàng',
       'Kichthuoc': '15x20cm',
    },
@@ -58,7 +58,7 @@ var ListItems = {
    'tui08': {
       'Ten': 'Handmade Choe',
       'Giaban': '251000',
-      'Hinhanh': '/imgages/Tui/tuii04.jpg',
+      'Hinhanh': '/images/Tui/tuii04.jpg',
       'Nguyenlieu': '01 cuộn len xám, 01 dây đeo',
       'Kichthuoc': '8x10cm',
    },
@@ -66,7 +66,7 @@ var ListItems = {
    'tui09': {
       'Ten': 'Handmade Princess',
       'Giaban': '253000',
-      'Hinhanh': '/imgages/Tui/tuii10.jpg',
+      'Hinhanh': '/images/Tui/tuii10.jpg',
       'Nguyenlieu': '01 cuộn len đỏ, 01 nut, 01 dây đeo',
       'Kichthuoc': '15x20cm',
    },
@@ -74,7 +74,7 @@ var ListItems = {
    'tui10': {
       'Ten': 'Handmade Simply',
       'Giaban': '242000',
-      'Hinhanh': '/imgages/Tui/tuii03.jpg',
+      'Hinhanh': '/images/Tui/tuii03.jpg',
       'Nguyenlieu': '01 cuộn len đen',
       'Kichthuoc': '17x23cm',
    },
@@ -82,7 +82,7 @@ var ListItems = {
    'tui11': {
       'Ten': 'Handmade White I',
       'Giaban': '254000',
-      'Hinhanh': '/imgages/Tui/tui12.jpg',
+      'Hinhanh': '/images/Tui/tui12.jpg',
       'Nguyenlieu': '01 cuộn len màu kem, 01 dây đeo',
       'Kichthuoc': '10x15cm',
    },
@@ -90,7 +90,7 @@ var ListItems = {
    'tui12': {
       'Ten': 'Handmade Multi',
       'Giaban': '232000',
-      'Hinhanh': '/imgages/Tui/tuii02.jpg',
+      'Hinhanh': '/images/Tui/tuii02.jpg',
       'Nguyenlieu': '02 cuộn len',
       'Kichthuoc': '15x20cm',
    },
@@ -98,7 +98,7 @@ var ListItems = {
    'nen01': {
       'Ten': 'Nến Sweet Tie',
       'Giaban': '185000VND',
-      'Hinhanh': '/imgages/Nen/nenthomm01.jpg',
+      'Hinhanh': '/images/NenThom/nenthomm01.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tin dầu gừng giúp hỗ trợ hô hấp đồng thời nó cũng có thể chữ bệnh như cảm cúm, ho, hen suyển',
       'Kichthuoc': '15x20cm',
    },
@@ -106,23 +106,23 @@ var ListItems = {
    'nen02': {
       'Ten': 'Nến Café White',
       'Giaban': '176000VND',
-      'Hinhanh': '/imgages/Nen/nenthomm02.jpg',
+      'Hinhanh': '/images/NenThom/nenthomm02.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, Tin dầu nhục đậu khấu, tinh dầu huế với hộp dựng bằng thủy tinh',
       'Kichthuoc': 'Tròn',
    },
 
    'nen03': {
-      'Ten': 'Nến Rose Red', 
+      'Ten': 'Nến Rose Red',
       'Giaban': '190000VND',
-      'Hinhanh': '/imgages/Nen/nenthomm03.jpg',
+      'Hinhanh': '/images/NenThom/nenthomm03.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, dầu đinh hương, tinh dầu huế',
       'Kichthuoc': '18x18cm',
    },
 
    'nen04': {
-      'Ten': 'Nến hương Milk', 
+      'Ten': 'Nến hương Milk',
       'Giaban': '188000VND',
-      'Hinhanh': '/imgages/Nen/nenthomm04.jpg',
+      'Hinhanh': '/images/NenThom/nenthomm04.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, 4 nhánh hoa Oải hương khô, tin dầu neroli',
       'Kichthuoc': '15x30cm',
    },
@@ -130,7 +130,7 @@ var ListItems = {
    'nen05': {
       'Ten': 'Nến Inelegance',
       'Giaban': '183000VND',
-      'Hinhanh': '/imgages/Nen/nt05.jpg',
+      'Hinhanh': '/images/Nen/nt05.jpg',
       'Nguyenlieu': 'Sáp ong, bấc nến gỗ, lá bạc hà khô, nơ trang trí, nhánh hoa oải hương khô, dây cột',
       'Kichthuoc': '25x20cm',
    },
@@ -138,7 +138,7 @@ var ListItems = {
    'nen06': {
       'Ten': 'Nến Glamor Chie',
       'Giaban': '200000VND',
-      'Hinhanh': '/imgages/Nen/nt06.jpg',
+      'Hinhanh': '/images/NenThom/nt06.jpg',
       'Nguyenlieu': 'Vài viên sáp ong, tinh dầu sả, bấc nến, lọ đựng thủy tin',
       'Kichthuoc': '15x20cm',
    },
@@ -146,7 +146,7 @@ var ListItems = {
    'nen07': {
       'Ten': 'Nến Lover Sweetly',
       'Giaban': '203000VND',
-      'Hinhanh': '/imgages/Nen/nt07.jpg',
+      'Hinhanh': '/images/NenThom/nt07.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tin dầu, tinh dầu bạc hà, bình thủy tinh',
       'Kichthuoc': '15x25cm',
    },
@@ -154,7 +154,7 @@ var ListItems = {
    'nen08': {
       'Ten': 'Nến Classic',
       'Giaban': '192000VND',
-      'Hinhanh': '/imgages/Nen/nt08.jpg',
+      'Hinhanh': '/images/NenThom/nt08.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu quế, tinh dầu đinh hương',
       'Kichthuoc': '15x20cm',
    },
@@ -162,7 +162,7 @@ var ListItems = {
    'nen09': {
       'Ten': 'Nến Purl Mini',
       'Giaban': '184000VND',
-      'Hinhanh': '/imgages/Nen/nt09.jpg',
+      'Hinhanh': '/images/NenThom/nt09.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu gừng, tinh dầu lá bạc hà',
       'Kichthuoc': '15x20cm',
    },
@@ -170,7 +170,7 @@ var ListItems = {
    'nen10': {
       'Ten': 'Nến Sofy Mist',
       'Giaban': '175000VND',
-      'Hinhanh': '/imgages/Nen/nt10.jpg',
+      'Hinhanh': '/images/NenThom/nt10.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu đinh hương, tình dầu bạc hà',
       'Kichthuoc': '20x25cm',
    },
@@ -178,7 +178,7 @@ var ListItems = {
    'tui-1': {
       'Ten': 'Handmade Vành khuyên',
       'Giaban': '186000',
-      'Hinhanh': '/imgages/Home/tui04.jpg',
+      'Hinhanh': '/images/Home/tui04.jpg',
       'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng',
       'Kichthuoc': '15x20cm',
    },
@@ -186,7 +186,7 @@ var ListItems = {
    'tui-2': {
       'Ten': 'Handmade hoa cúc',
       'Giaban': '200000',
-      'Hinhanh': '/imgages/Home/tui07.jpg',
+      'Hinhanh': '/images/Home/tui07.jpg',
       'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng, 01 cuộn len vàng',
       'Kichthuoc': '20x20cm',
    },
@@ -194,7 +194,7 @@ var ListItems = {
    'tui-3': {
       'Ten': 'Handmade flower',
       'Giaban': '250000',
-      'Hinhanh': '/imgages/Home/tui08.jpg',
+      'Hinhanh': '/images/Home/tui08.jpg',
       'Nguyenlieu': '01 dây đeo, 01 cuộn len trắng',
       'Kichthuoc': '12x18cm',
    },
@@ -202,7 +202,7 @@ var ListItems = {
    'tui-4': {
       'Ten': 'Tui Bud',
       'Giaban': '199000',
-      'Hinhanh': '/imgages/Home/tui01.jpg',
+      'Hinhanh': '/images/Home/tui01.jpg',
       'Nguyenlieu': '01 dây deo, 01 cuộn len vàng, 01 cuộn len kem',
       'Kichthuoc': '25x20cm',
    },
@@ -210,7 +210,7 @@ var ListItems = {
    'tui-5': {
       'Ten': 'Túi Smile',
       'Giaban': '223000',
-      'Hinhanh': '/imgages/Home/tui05.jpg',
+      'Hinhanh': '/images/Home/tui05.jpg',
       'Nguyenlieu': '01 cuộn len trắng, 01 cuộn len đen',
       'Kichthuoc': '12x18cm',
    },
@@ -218,7 +218,7 @@ var ListItems = {
    'tui-6': {
       'Ten': 'Túi Purple',
       'Giaban': '200000',
-      'Hinhanh': '/imgages/Home/tui02.jpg',
+      'Hinhanh': '/images/Home/tui02.jpg',
       'Nguyenlieu': '01 cuộn len tím',
       'Kichthuoc': '13x20cm',
    },
@@ -226,7 +226,7 @@ var ListItems = {
    'nen-1': {
       'Ten': 'Hủ đựng nến thơm',
       'Giaban': '20000',
-      'Hinhanh': '/imgages/Home/nenthom03.jpg',
+      'Hinhanh': '/images/Home/nenthom03.jpg',
       'Nguyenlieu': 'Gốm',
       'Kichthuoc': '5x5cm',
    },
@@ -234,7 +234,7 @@ var ListItems = {
    'nen-2': {
       'Ten': 'Nến thơm Blossom',
       'Giaban': '150000',
-      'Hinhanh': '/imgages/Home/nenthom8.jpg',
+      'Hinhanh': '/images/Home/nenthom8.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu hoa anh đào',
       'Kichthuoc': '10x10cm',
    },
@@ -242,7 +242,7 @@ var ListItems = {
    'nen-3': {
       'Ten': 'Nến thơm White Lyly',
       'Giaban': '145000',
-      'Hinhanh': '/imgages/Home/nenthom4.jpg',
+      'Hinhanh': '/images/Home/nenthom4.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu hoa lyly',
       'Kichthuoc': '10x10cm',
    },
@@ -250,7 +250,7 @@ var ListItems = {
    'nen-4': {
       'Ten': 'Nến thơm Mộc',
       'Giaban': '99000',
-      'Hinhanh': '/imgages/Home/nenthom1.jpg',
+      'Hinhanh': '/images/Home/nenthom1.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu thảo mộc',
       'Kichthuoc': '8x8cm',
    },
@@ -258,65 +258,35 @@ var ListItems = {
    'nen-6': {
       'Ten': 'Nến thơm thiên nhiên',
       'Giaban': '158000',
-      'Hinhanh': '/imgages/Home/nenthom6.jpg',
+      'Hinhanh': '/images/Home/nenthom6.jpg',
       'Nguyenlieu': 'Sáp đậu nành, bấc nến, tinh dầu bạc hà, tinh dầu oải hương',
       'Kichthuoc': '7x7cm',
    },
 }
 
-function Xoadonhang() {
-   document.querySelector('.giohang-donhang').remove();
-   document.querySelector('.giohang-dssp').innerHTML = '<h2>Không có sản phẩm nào trong giỏ hàng!</h2>'
-   localStorage.clear();
-}
-if (localStorage.cartList !== undefined) {
-   //* Giỏ hàng có hàng
-   //* thêm sản phẩm vào giỏ hàng
-   var listCartCourses = JSON.parse(localStorage.cartList);
-   var cartElement = '<div class="row justify-content-center align-items-start g-2 pb-2 mb-5 border-bottom border-secondary"><div class="col-md-4"><img src="" alt="" class="giohang-hinhanh"></div><div class="col-md-6"><h4 class="giohang-tieude text-start"></h4></div><div class="col text-end pe-3"><a href="#" class="giohang-xoa">Xóa</a></div><div class="col text-end"><p class="giohang-gia fw-bold fs-6"></p></div></div>';
-   document.querySelector('.giohang-dssp').innerHTML = cartElement.repeat(listCartCourses.length);
-   var gioHangTieuDe = document.querySelectorAll('.giohang-tieude');
-   var gioHangGiaban = document.querySelectorAll('.giohang-gia');
-   var gioHangHinhAnh = document.querySelectorAll('.giohang-hinhanh');
-   var gioHangBtnXoa = document.querySelectorAll('.giohang-xoa');
-   for (let i = 0; i < listCartCourses.length; i++) {
-      gioHangTieuDe[i].innerText = courses[listCartCourses[i]].Tieude;
-      gioHangGiaban[i].innerText = courses[listCartCourses[i]].Giaban;
-      // gioHangGiaovien[i].innerText = courses[listCartCourses[i]].Giaovien;
-      gioHangHinhAnh[i].src = courses[listCartCourses[i]].Hinhanh;
-      gioHangBtnXoa[i].setAttribute('name', listCartCourses[i]);
+document.querySelector('#Hinhanh').setAttribute('src', ListItems[localStorage.ID].Hinhanh);
+document.querySelector('#Gia').innerHTML = ListItems[localStorage.ID].Giaban;
+document.querySelector('#Ten').innerHTML = ListItems[localStorage.ID].Ten;
+document.querySelector('#Nguyenlieu').innerHTML = ListItems[localStorage.ID].Nguyenlieu;
+document.querySelector('#Kichthuoc').innerHTML = ListItems[localStorage.ID].Kichthuoc;
+
+
+let btnAddCart = document.querySelector('.btn-addcart');
+btnAddCart.addEventListener('click', function() {
+   if (localStorage.cartList === undefined) {
+      let ListItems = [localStorage.ID];
+      localStorage.cartList = JSON.stringify(ListItems);
+      alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
    }
-
-   //* Tính tổng tiền hàng
-   var gioHangTongTien = 0;
-   for (let i = 0; i < listCartCourses.length; i++) {
-      gioHangTongTien += Number.parseInt(courses[listCartCourses[i]].Giaban.replace(".", ""));
+   else if (JSON.parse(localStorage.cartList).includes(localStorage.ID)) {
+      alert('Sản phẩm đã có sẵn trong giỏ hàng');
    }
-   document.querySelector('.giohang-tongtien').innerText = gioHangTongTien + "đ";
+   else {
+      let ListItems = JSON.parse(localStorage.cartList);
+      ListItems.push(localStorage.ID);
+      localStorage.cartList = JSON.stringify(ListItems);
+      alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
+   }
+})
 
-   //* Xóa sản phẩm khỏi giỏ hàng
-   var btnRemoveCarts = document.querySelectorAll('.giohang-xoa');
-   btnRemoveCarts.forEach(e => {
-      e.addEventListener('click', (event) => {
-         //* Xóa sản phẩm khỏi giỏ hàng
-         event.path[2].remove();
-         listCartCourses = listCartCourses.filter(item => item != event.target.name);
-         localStorage.cartList = JSON.stringify(listCartCourses);
-
-         //* Trừ tổng tiền hàng
-         gioHangTongTien -= Number.parseInt(courses[event.target.name].Giaban.replace(".", ""));
-         document.querySelector('.giohang-tongtien').innerText = gioHangTongTien + "đ";
-
-         //* Khi không còn sản phẩm nào trong giỏ hàng
-         if (document.querySelector(".giohang-dskh").childNodes.length == 0) {
-            Xoadonhang();
-         }
-      })
-   })
-}
-else {
-   //* Giỏ hàng rỗng
-   //* Không hiển thị tổng tiền hàng
-   Xoadonhang();
-}
 
