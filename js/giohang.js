@@ -1,12 +1,14 @@
 course ={
-   'Tui':{
+   'tui':{
       'Ten': ,
       'Giaban':,
       'Hinhanh':,
       'Danhgia':,
-
+      'Nguyenlieu':,
+      'Kichthuoc',
    },
 
+   
    'Nen':{
       'Ten': ,
       'Giaban':,
