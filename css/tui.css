@@ -1,7 +1,11 @@
+
+
 h1 {
     font-size: 60px;
     text-align: center;
     color: black;
+    margin: 2rem;
+    margin-bottom: 1em;
 }
 
 header {
@@ -157,53 +161,3 @@ body {
     /* text-decoration: ; */
     font-weight: bold;
 }
-
-
-
-/* 
-.t1 {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-}
-.ten {
-    font-size: 2rem;
-     width: 400px;
-    height: auto;
-    text-align: left;
-}
-
-.gia {
-    font-size: 35px;
-    font-style: italic;
-    display: flex;
-}
-
-.img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 21rem;
-    height: 50%;
-  
-}
-
-.dd {
-    display: flex;
-    margin:0 auto;
-    flex-wrap: wrap;
-    position: absolute;
-   
-}
-
-.sp {
-    display: flex;
-    width: 23rem;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: column;
-    border-color: gray;
-    border: 1px;
-    border: #32a1ce;
-    border-style: inset;
-    box-shadow: 0 0 0.125rem 0.125rem 0 black;
-}  */
