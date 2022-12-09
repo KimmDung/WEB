@@ -2,14 +2,14 @@
     margin: 0.5rem;
     font-family:'Times New Roman', Times, serif, 'times new roman';
     text-align: light;
-    margin-left: 100px;
+    margin-left: 10px;
     color: rgb(242, 234, 234);
     
 }
 .row{
     font-family:'Times New Roman', Times, serif, 'times new roman';
 }
-h1{
+h1.leftt, h1.left1, h1.left{
     font-family: Times, serif, 'times new roman';
     font-size: 28px;
     text-align: left;
@@ -31,7 +31,7 @@ footer{
 
 
 
-.left{
+/* .left{
     margin-left: 120px;
     margin-top: 10px;
 }
@@ -45,17 +45,17 @@ footer{
     text-align: center;
     margin-left: 0px;
     margin-top: 13px;
-}
+} */
 
 .fa-brands{
     margin-left: 60px;
     color: rgb(218, 213, 239);
 }
 
-.fa-solid{
+/* .fa-solid{
     color: rgb(218, 213, 239);
     margin-left: 20px;
-}
+} */
 .text-last{
     margin-top: 0px ;
     text-align: center;
@@ -72,7 +72,7 @@ footer{
     margin-top: 10px;
 }
 
-a{
+.footer-link{
     color: whitesmoke;
     text-decoration: none;
 }
