@@ -1,4 +1,13 @@
-
+h1:after {
+	position: relative;
+	left: 50%;
+	display: block;		
+	content: ""; 
+	width: 25rem;
+	height: 2px;	
+	transform: skewX(-50deg) translateX(-50%);
+	background: radial-gradient(#7a8b24, rgb(179, 152, 152));	 
+}
 
 h1 {
     font-size: 60px;
