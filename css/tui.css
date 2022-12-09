@@ -17,11 +17,11 @@ h1 {
     margin-bottom: 1em;
 }
 
-header {
+/* header {
     padding: 0px;
-}
+} */
 
-body {
+/* body {
     display: block;
     margin: 8px;
 }
@@ -85,11 +85,11 @@ body {
 .header_login {
     display: inline-block;
     margin-left: auto;
-    /* align-items: center; */
-}
-
+    align-items: center;
+} */
+/*
 .img-logo {
-    /* position: relative; */
+    position: relative;
     width: 5rem;
     height: 100%;
 }
@@ -127,9 +127,9 @@ body {
 
 .banner-img {
     height: 450px;
-    /* width: 600px;  */
-}
-
+    width: 600px; 
+} */
+/* 
 .product{
     margin: 10px;
     width: 15rem;
@@ -167,9 +167,9 @@ body {
     align-items: center;
     line-height: 3rem ;
     font-size: 1.2rem;
-    /* text-decoration: ; */
+    text-decoration: ;
     font-weight: bold;
-}
+}  */
 
 .phantrang {
     display: flex;

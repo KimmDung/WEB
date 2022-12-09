@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/dangky.css" />
-        <script src="/js/dangky.js"></script>
 
-    </head>
-    <body>
-        <main>
-            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/dangky.css" />
+    <script src="/js/dangky.js"></script>
 
-            <div class="login container">
-                <h2 class="active"> TẠO TÀI KHOẢN </h2>
-                <form onsubmit="return dangky(this)">
-                                    
-                        <input id="hoten" type="text" class="text"  placeholder="Họ tên">
-                        <hr>
-                        <input id="email" type="text" class="text"  placeholder="Email">
-                        <hr>
-                        <input id="sdt" type="text" class="text"  placeholder="Số điện thoại">
-                        <hr>
-                        <input id="mk" type="password" class="text"  placeholder="Mật khẩu">
-                        <hr>
-                        <input id="xacnhan" type="password" class="text"  placeholder="Xác nhận mật khẩu">
-                        <br>
 
-                        <button class="signin">Tạo tài khoản</button>
-                        
-                </form>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/home.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
 
-                
+    <link rel="short cut icon" href="/images/logo.png" type="vnd.microsoft.icon">
 
+
+</head>
+
+<body>
+    <header class="container-fluid p-0">
+        <div class="container-fluid p-0 header_logo">
+            <div class="header_img">
+                <img src="/images/logo.png" alt="" class="img-logo" />
+                <img src="/images/doityourself..png" alt="" class="img-logo-text" />
             </div>
-        </main>
-    </body>
+
+            <div class="header_login">
+                <button class="btn btn-light btn-bg">
+                    <a href="/html/dangky.html" class="register text-light">Đăng ký</a>
+                </button>
+                <button class="btn btn-light btn-bg">
+                    <a href="/html/dangnhap.html" class="register text-light">Đăng nhập</a>
+                </button>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand nav-link active" href="/html/index.html">
+                                <i class="fa-solid fa-house icon-light"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/html/tui.html">Túi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="/html/nenthom.html">Nến thơm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <!-- <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        /> -->
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 bg-search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                        </form>
+                </div>
+                <a href="" class="icon_search">
+                    <i class="fa-solid fa-magnifying-glass icon-light"></i>
+                </a>
+                <a href="/html/giohang.html" class="icon_cart">
+                    <i class="fa-solid fa-cart-shopping icon-light"></i>
+                </a>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+        <div class="login-form container">
+            <h2 class="title"> TẠO TÀI KHOẢN </h2>
+            <form class="from-register" onsubmit="return dangky(this)">
+
+                <input id="hoten" type="text" class="text" placeholder="Họ tên">
+                <hr>
+                <input id="email" type="text" class="text" placeholder="Email">
+                <hr>
+                <input id="sdt" type="text" class="text" placeholder="Số điện thoại">
+                <hr>
+                <input id="mk" type="password" class="text" placeholder="Mật khẩu">
+                <hr>
+                <input id="xacnhan" type="password" class="text" placeholder="Xác nhận mật khẩu">
+                <br>
+
+                <button class="signin">Tạo tài khoản</button>
+
+            </form>
+
+
+
+        </div>
+    </main>
+</body>
+
 </html>

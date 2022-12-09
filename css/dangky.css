@@ -9,7 +9,7 @@ body,
   margin-bottom: 20px;
 }
 
-.login {
+.login-form {
   position: relative;
   height: 560px;
   width: 405px;
@@ -17,11 +17,11 @@ body,
   padding: 60px 60px;
 }
 
-form {
+.from-register{
   padding-top: 50px;
 }
 
-.active {
+.title {
   border-bottom: 2px solid #0b1a34;
 }
 

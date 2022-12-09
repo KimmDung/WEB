@@ -11,12 +11,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- <link rel="stylesheet" href="/css/footer.css" /> -->
   <script src="/js/bootstrap.js"></script>
   <script src="/js/bootstrap.bundle.js"></script>
+  <script src="/js/home.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="short cut icon" href="/images/logo.png" type="vnd.microsoft.icon">
+
 </head>
 
 <body>
@@ -76,7 +79,7 @@
         <a href="" class="icon_search">
           <i class="fa-solid fa-magnifying-glass icon-light"></i>
         </a>
-        <a href="" class="icon_cart">
+        <a href="/html/giohang.html" class="icon_cart">
           <i class="fa-solid fa-cart-shopping icon-light"></i>
         </a>
         </form>
@@ -126,12 +129,8 @@
 
     <!-- Sanpham -->
     <div>
-      <h2>Bạn có thể thích</h2>
+      <h1><b>Bạn có thể thích</b></h1>
     </div>
-
-    <!-- <div>
-      <h3>Túi</h3>
-    </div> -->
 
     <div class="container-fluid d-flex flex-wrap justify-content-center">
       <div class="product-item" id="tui-1">
@@ -149,7 +148,7 @@
         </a>
       </div>
 
-      <div class="product-item" id="tui-2">
+      <div class="product-item" id="tui-2" onclick="showDetail();">
         <a href="#">
           <div class="product shadow bg-body">
             <div class="product-img">
