@@ -1,3 +1,22 @@
+h1:after {
+	position: relative;
+	left: 50%;
+	display: block;		
+	content: ""; 
+	width: 25rem;
+	height: 2px;	
+	transform: skewX(-50deg) translateX(-50%);
+	background: radial-gradient(#7a8b24, rgb(179, 152, 152));	 
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    margin: 2rem;
+    margin-bottom: 1em;
+}
+
 header {
     padding: 0px;
 }
@@ -9,11 +28,6 @@ body {
 
 .bg-nav {
     background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
-}
-nav{
-    position: sticky;
-    top: 0;
-    z-index: 1020
 }
 
 .icon-light {
@@ -30,11 +44,6 @@ nav{
 
 .navbar-toggler:focus {
     box-shadow: none;
-}
-
-.bg-search{
-    /* background:transparent; */
-    /* color: white; */
 }
 
 .logo {
@@ -76,8 +85,6 @@ nav{
 .header_login {
     display: inline-block;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     /* align-items: center; */
 }
 
@@ -97,18 +104,9 @@ nav{
 .login {
     float: right;
     text-align: center;
-    /* margin: 17px 5px; */
+    margin: 17px 5px;
     text-decoration: none;
     color: black;
-}
-
-.btn-bg{
-    background-color: #008287;
-}
-
-.btn-outline-bg{
-    color: #008287;
-    outline: #007190;
 }
 
 .login {
@@ -169,6 +167,12 @@ nav{
     align-items: center;
     line-height: 3rem ;
     font-size: 1.2rem;
-    text-decoration: ;
+    /* text-decoration: ; */
     font-weight: bold;
+}
+
+.phantrang {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
