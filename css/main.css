@@ -116,10 +116,6 @@ body {
     width: 15rem;
     height: 20rem;
     border: 1px;
-    border-style: solid;
-    border-color: #b0b0b0;
-    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0,0,0,10%);
-    border-radius: 0.125rem;
 }
 
 .product:hover{
@@ -149,5 +145,6 @@ body {
     align-items: center;
     line-height: 3rem ;
     font-size: 1.2rem;
-    text-decoration: 
+    text-decoration: ;
+    font-weight: bold;
 }
