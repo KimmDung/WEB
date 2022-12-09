@@ -4,17 +4,11 @@ course ={
       'Giaban':,
       'Hinhanh':,
       'Danhgia':,
-
+      'Nguyenlieu':,
+      'Kichthuoc',
    },
 
-   'tui01':{
-      'Ten': '',
-      'Giaban':,
-      'Hinhanh':,
-      'Danhgia':,
-
-   },
-
+   
    'Nen':{
       'Ten': ,
       'Giaban':,
