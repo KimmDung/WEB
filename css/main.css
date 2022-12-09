@@ -10,6 +10,11 @@ body {
 .bg-nav {
     background-image: linear-gradient(to right, #A4BE7B, #75B175, #3AA377, #00937E, #008287, #007190);
 }
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1020
+}
 
 .icon-light {
     color: white;
@@ -25,6 +30,11 @@ body {
 
 .navbar-toggler:focus {
     box-shadow: none;
+}
+
+.bg-search{
+    /* background:transparent; */
+    /* color: white; */
 }
 
 .logo {
@@ -66,6 +76,8 @@ body {
 .header_login {
     display: inline-block;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     /* align-items: center; */
 }
 
@@ -85,9 +97,18 @@ body {
 .login {
     float: right;
     text-align: center;
-    margin: 17px 5px;
+    /* margin: 17px 5px; */
     text-decoration: none;
     color: black;
+}
+
+.btn-bg{
+    background-color: #008287;
+}
+
+.btn-outline-bg{
+    color: #008287;
+    outline: #007190;
 }
 
 .login {
