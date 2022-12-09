@@ -24,24 +24,30 @@ h1 {
 }
 
 .img {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 21rem;
     height: 50%;
     /* justify-content: center; */
 }
 
 .dd {
     display: flex;
-    margin: auto;
+    margin:0 auto;
     flex-wrap: wrap;
+    position: absolute;
+    /* justify-content: center; */
 }
 
 .sp {
     display: flex;
-    width: 375px;
+    width: 23rem;
     margin: 10px;
     justify-content: center;
     flex-direction: column;
-    
+    border-color: gray;
+    border: 1px;
+    border: #32a1ce;
+    border-style: inset;
+    box-shadow: 0 0 0.125rem 0.125rem 0 black;
 }
