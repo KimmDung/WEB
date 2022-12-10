@@ -16,6 +16,7 @@ body {
     display: block;
     margin: 8px;
     font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: large;
 }
 
 .bg-nav {
@@ -124,7 +125,8 @@ nav {
 }
 
 .icon_search,
-.icon_cart {
+.icon_cart,
+.icon_user  {
     margin-left: 10px;
     margin-right: 5px;
 }
@@ -152,7 +154,7 @@ nav {
     color: black;
 }
 
-.product:hover {}
+/* .product:hover {} */
 
 .product-img {
     width: 100%;
