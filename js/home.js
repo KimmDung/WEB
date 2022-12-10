@@ -265,11 +265,11 @@ var ListItems = {
 }
 
 
-ListItems.forEach(element => {
-   element.addEventListener('click', function () {
-      localStorage.setItem("ID", this.id);
-   })
-});
+// ListItems.forEach(element => {
+//    element.addEventListener('click', function () {
+//       localStorage.setItem("ID", this.id);
+//    })
+// });
 
 
 function showDetail(){
