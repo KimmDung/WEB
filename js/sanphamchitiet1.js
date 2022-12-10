@@ -1,4 +1,4 @@
-let ListItems = {
+var ListItems = {
    'tui01': {
       'Ten': 'Handmade Pomix',
       'Giaban': '230000',
@@ -264,29 +264,35 @@ let ListItems = {
    },
 }
 
-document.querySelector('#Hinhanh').setAttribute('src', ListItems[localStorage.ID].Hinhanh);
-document.querySelector('#Gia').innerHTML = ListItems[localStorage.ID].Giaban;
-document.querySelector('#Ten').innerHTML = ListItems[localStorage.ID].Ten;
-document.querySelector('#Nguyenlieu').innerHTML = ListItems[localStorage.ID].Nguyenlieu;
-document.querySelector('#Kichthuoc').innerHTML = ListItems[localStorage.ID].Kichthuoc;
+// document.querySelector('#Hinhanh').setAttribute('src', ListItems[localStorage.ID].Hinhanh);
+// document.querySelector('#Gia').innerHTML = ListItems[localStorage.ID].Giaban;
+// document.querySelector('#Ten').innerHTML = ListItems[localStorage.ID].Ten;
+// document.querySelector('#Nguyenlieu').innerHTML = ListItems[localStorage.ID].Nguyenlieu;
+// document.querySelector('#Kichthuoc').innerHTML = ListItems[localStorage.ID].Kichthuoc;
 
 
-let btnAddCart = document.querySelector('.btn-addcart');
-btnAddCart.addEventListener('click', function() {
-   if (localStorage.cartList === undefined) {
-      let ListItems = [localStorage.ID];
-      localStorage.cartList = JSON.stringify(ListItems);
-      alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
-   }
-   else if (JSON.parse(localStorage.cartList).includes(localStorage.ID)) {
-      alert('Sản phẩm đã có sẵn trong giỏ hàng');
-   }
-   else {
-      let ListItems = JSON.parse(localStorage.cartList);
-      ListItems.push(localStorage.ID);
-      localStorage.cartList = JSON.stringify(ListItems);
-      alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
-   }
-})
+// let btnAddCart = document.querySelector('.btn-addcart');
+// btnAddCart.addEventListener('click', function() {
+//    if (localStorage.cartList === undefined) {
+//       let ListItems = [localStorage.ID];
+//       localStorage.cartList = JSON.stringify(ListItems);
+//       alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
+//    }
+//    else if (JSON.parse(localStorage.cartList).includes(localStorage.ID)) {
+//       alert('Sản phẩm đã có sẵn trong giỏ hàng');
+//    }
+//    else {
+//       let ListItems = JSON.parse(localStorage.cartList);
+//       ListItems.push(localStorage.ID);
+//       localStorage.cartList = JSON.stringify(ListItems);
+//       alert('Bạn đã thêm 1 sản phẩm vào giỏ hàng');
+//    }
+// })
 
 
+products = document.querySelectorAll('.product-item');
+products.forEach(element => {
+   element.addEventListener('click', (e) => {
+      localStorage.setItem('ID', element.id);
+   })
+});
